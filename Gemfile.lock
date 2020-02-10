@@ -86,6 +86,7 @@ GEM
     nio4r (2.5.2)
     nokogiri (1.10.7-x64-mingw32)
       mini_portile2 (~> 2.4.0)
+    pg (1.2.2-x64-mingw32)
     puma (4.3.1)
       nio4r (~> 2.0)
     rack (2.2.1)
@@ -127,7 +128,6 @@ GEM
       actionpack (>= 4.0)
       activesupport (>= 4.0)
       sprockets (>= 3.0.0)
-    sqlite3 (1.4.2)
     thor (1.0.1)
     thread_safe (0.3.6)
     tzinfo (1.2.6)
@@ -147,10 +147,10 @@ DEPENDENCIES
   bootsnap (>= 1.4.2)
   byebug
   jbuilder (~> 2.7)
+  pg (>= 0.18, < 2.0)
   puma (~> 4.1)
   rack-cors (~> 1.1, >= 1.1.1)
   rails (~> 6.0.2, >= 6.0.2.1)
-  sqlite3 (~> 1.4)
   tzinfo-data
 
 RUBY VERSION
